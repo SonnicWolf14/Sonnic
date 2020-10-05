@@ -14,11 +14,11 @@ body{
     left: 0px;
     top: 0px;
 
-    background: url(3ef5d-1478555468441.png);
+    background: url(Images\front_gif.gif);
 }
 
 .name {
-    position: absolute;
+    position: relative;
     width: 800px;
     height: 76px;
     left: 295px;
@@ -40,7 +40,7 @@ body{
 }
 
 .desc {
-    position: absolute;
+    position: relative;
     width: 800px;
     height: 90px;
     left: 295px;
@@ -60,7 +60,7 @@ body{
     color: #56CCF2;
 }
 .learnMore {
-    position: absolute;
+    position: relative;
     width: 206px;
     height: 33px;
     left: 520px;
@@ -68,7 +68,7 @@ body{
 }
 
 nav {
-    position: absolute;
+    position: relative;
     width: 208px;
     height: 36px;
     left: 460px;
@@ -82,7 +82,7 @@ nav {
 
 
 .bady {
-    position: absolute;
+    position: relative;
     width: 964px;
     height: 222px;
     left: 66px;
@@ -105,49 +105,59 @@ nav {
 }
 
 .cplus {
-    position: absolute;
+    position: relative;
     width: 183px;
     height: 207px;
     left: 400px;
     top: 749px;
-    background: url(99f887833c475448723d3c9ac16c179b.png);
+    background: url(Images\C++Im.png);
 }
 
 .java {
-    position: absolute;
+    position: relative;
     width: 313px;
     height: 199px;
     left: 0px;
     top: 700px;
 
-    background: url(java.png);
+    background: url(Images\java.gif);
 }
 
 .javascript {
-    position: absolute;
+    position: relative;
     width: 210px;
     height: 170px;
     left: 650px;
     top: 749px;
 
-    background: url(png-clipart-web-development-node-js-socket-io-javascript-network-socket-modernization-miscellaneous-logo-thumbnail.png);
+    background: url(Images\JavaScript.png);
 }
 
 .python {
-    position: absolute;
+    position: relative;
     width: 181px;
     height: 197px;
     left: 1064px;
     top: 749px;
-    background: url(8fad125b8f6082bdb7deb0aa593dfb49.jpg);
+    background: url(Images\PythonIm.jpg);
 }
 
 .sqlContainer {
-    position: absolute;
+    position: relative;
     width: 183px;
     height: 197px;
     left: 864px;
     top: 749px;
 
-    background: url(png-clipart-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-thumbnail.png);
+    background: url(Images\SQL_container.png);
+}
+
+.background {
+    position: relative;
+    width: 1280px;
+    height: 147px;
+    left: 47px;
+    top: 17px;
+
+    background: url(Images\top_backgrou_gif.gif);
 }
