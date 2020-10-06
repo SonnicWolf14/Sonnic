@@ -5,24 +5,31 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    width: auto;
 }
 
 /* Top intro */
+.head {
+    width: auto;
 
-.top {
-    height: 340px;
-    left: 0px;
-    top: 0px;
-
+}
+.box {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 0%;
+    top: 0%;
+    
     background: url(Images\front_gif.gif);
 }
 
 .name {
     position: absolute;
-    width: 800px;
-    height: 76px;
-    left: 295px;
-    top: 129px;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
 
     font-family: Reem Kufi;
     font-style: normal;
@@ -41,10 +48,11 @@ body{
 
 .desc {
     position: absolute;
-    width: 800px;
-    height: 90px;
-    left: 295px;
-    top: 180px;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%, -50%);
 
     font-family: Reem Kufi;
     font-style: normal;
@@ -61,18 +69,20 @@ body{
 }
 .learnMore {
     position: absolute;
-    width: 206px;
-    height: 33px;
-    left: 520px;
-    top: 260px;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 34%;
+    transform: translate(-50%, -50%);
 }
 
 nav {
     position: absolute;
-    width: 208px;
-    height: 36px;
-    left: 460px;
-    top: 250px;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 34%;
+    transform: translate(-50%, -50%);
 
 /* Gray 6 */
 
@@ -83,92 +93,76 @@ nav {
 
 .bady {
     position: absolute;
-    width: 964px;
-    height: 222px;
-    left: 66px;
-    top: 600px;
+    width: auto;
+    height: auto;
+    left: 5%;
+    top: 65%;
 
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: auto;
     line-height: 20px;
 
     color: #000000;
 }
 
-.c{
-    width: 245px;
-    height: 242px;
-    left: 564px;
-    top: 733px;
-}
-
 .cplus {
     position: absolute;
-    width: 183px;
-    height: 207px;
-    left: 400px;
-    top: 749px;
+    width: auto;
+    height: auto;
+    left: 30%;
+    top: 100%;
     background: url(Images\C++Im.png);
 }
 
 .java {
     position: absolute;
-    width: 313px;
-    height: 199px;
-    left: 0px;
-    top: 700px;
+    width: auto;
+    height: auto;
+    left: 0%;
+    top: 96%;
 
     background: url(Images\java.gif);
 }
 
 .javascript {
     position: absolute;
-    width: 210px;
-    height: 170px;
-    left: 650px;
-    top: 749px;
+    width: auto;
+    height: auto;
+    left: 45%;
+    top: 100%;
 
     background: url(Images\JavaScript.png);
 }
 
 .python {
     position: absolute;
-    width: 181px;
-    height: 197px;
-    left: 1064px;
-    top: 749px;
+    width: auto;
+    height: auto;
+    left: 65%;
+    top: 100%;
     background: url(Images\PythonIm.jpg);
 }
 
 .sqlContainer {
     position: absolute;
-    width: 183px;
-    height: 197px;
-    left: 864px;
-    top: 749px;
+    width: auto;
+    height: auto;
+    left: 85%;
+    top: 100%;
 
     background: url(Images\SQL_container.png);
 }
 
-.background {
-    position: absolute;
-    width: 1280px;
-    height: 147px;
-    left: 47px;
-    top: 17px;
-
-    background: url(Images\top_backgrou_gif.gif);
-}
-
 .talk {
     position: absolute;
-    width: 964px;
-    height: 222px;
-    left: 66px;
-    top: 500px;
+    width: auto;
+    height: auto;
+    left: 5%;
+    top: 60%;
 
     color: #000000;
 }
+
