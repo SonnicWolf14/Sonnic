@@ -20,7 +20,7 @@ body{
     left: 0%;
     top: 0%;
     
-    background: url(Images\front_gif.gif);
+    /*background: url(Images\front_gif.gif);*/
 }
 
 .name {
@@ -114,7 +114,7 @@ nav {
     height: auto;
     left: 30%;
     top: 100%;
-    background: url(Images\C++Im.png);
+    /*background: url(Images\C++Im.png);*/
 }
 
 .java {
@@ -124,7 +124,7 @@ nav {
     left: 0%;
     top: 96%;
 
-    background: url(Images\java.gif);
+    /*background: url(Images\java.gif);*/
 }
 
 .javascript {
@@ -134,7 +134,7 @@ nav {
     left: 45%;
     top: 100%;
 
-    background: url(Images\JavaScript.png);
+   /* background: url(Images\JavaScript.png);*/
 }
 
 .python {
@@ -143,7 +143,7 @@ nav {
     height: auto;
     left: 65%;
     top: 100%;
-    background: url(Images\PythonIm.jpg);
+    /*background: url(Images\PythonIm.jpg);*/
 }
 
 .sqlContainer {
@@ -153,7 +153,7 @@ nav {
     left: 85%;
     top: 100%;
 
-    background: url(Images\SQL_container.png);
+    /*background: url(Images\SQL_container.png);*/
 }
 
 .talk {
@@ -164,5 +164,68 @@ nav {
     top: 60%;
 
     color: #000000;
+}
+
+
+
+.weather-img {
+    position: absolute;
+    width: 17%;
+    height: auto;
+    left: 0%;
+    top: 0%;
+
+    background: url(Images\WeatherIMG.png);
+}
+
+.icon{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 3%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.weather{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 3%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.place{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 9%;
+    top: 2%;
+    transform: translate(-50%, -50%);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 130%;
+}
+
+.temp{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 12%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.real-feel{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 12%;
+    top: 15%;
+    transform: translate(-50%, -50%);
 }
 

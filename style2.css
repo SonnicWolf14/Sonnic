@@ -6,6 +6,7 @@
 body{
     font-family: "Roboto", sans-serif;
     width: auto;
+    background-color: dimgrey;
 }
 
 .top {
@@ -38,7 +39,6 @@ body{
 /* identical to box height */
 
     color: #EB5757;
-    border: 1px solid #000000;
 
     text-align: justify;
     text-transform: uppercase;
@@ -349,9 +349,16 @@ body{
     color: #000000;
 }
 
-.weather{
+.download-file{
     position: absolute;
-    left: 0%;
-    top: 0%;
-}
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 240%;
+    transform: translate(-50%, -50%);
 
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 160%), #F2F2F2;
+    border-radius: 300px;
+
+    color: #000000;
+}
